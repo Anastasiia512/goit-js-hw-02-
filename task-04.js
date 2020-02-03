@@ -1,8 +1,8 @@
 "use strict";
 
 const formatString = function(string) {
-  const newString = string.length <= 40 ? string : string.substr(0, 40) + "...";
-  return newString;
+  return  string.length <= 40 ? string : string.substr(0, 40) + "...";
+  
 };
 
 console.log(formatString("Curabitur ligula sapien, tincidunt non."));
